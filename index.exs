@@ -2,7 +2,7 @@ use Dynaload
 
 require_script :extension
 
-IO.inspect "Loaded script"
+IO.inspect "Loaded script (updated from github)"
 
 defmodule FeatureA.Index do
   def hello(name), do: "Hello #{name}"
